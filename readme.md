@@ -1,6 +1,5 @@
 # ⚛️ React - A Complete Overview for Beginners
 
----
 
 ## 🧠 What is React?
 
