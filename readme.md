@@ -545,6 +545,59 @@ Yes — the **returned JSX** from `Tab()` will be **injected/rendered** exactly 
 
 ---
 
+
+✅ Yes! In React, when you write a JSX tag like `<Tab />`, **that tag does not appear in the final HTML**.
+
+Instead, React:
+
+1. **Parses the JSX**
+2. **Calls the component function (e.g., `Tab()`)**
+3. **Inserts the returned JSX content into the DOM**
+4. 🧽 **Removes the JSX tag** itself from the final HTML — it's just a placeholder in your code
+
+---
+
+### 🧠 Example to Visualize
+
+#### 🧾 React Code (JSX):
+
+```jsx
+function Tab() {
+  return <div>This is a Tab Component</div>;
+}
+
+function App() {
+  return (
+    <div>
+      <h1>Hello</h1>
+      <Tab />
+    </div>
+  );
+}
+```
+
+#### 🧱 Final Rendered HTML in Browser:
+
+```html
+<div>
+  <h1>Hello</h1>
+  <div>This is a Tab Component</div>
+</div>
+```
+
+* ✅ `<Tab />` was **used in JSX**
+* ❌ But **you won’t see `<Tab />` in the actual HTML**
+* ✅ You only see what `Tab()` **returned** — a real `<div>...</div>`
+
+---
+
+## ✅ Summary (for Notes):
+
+> JSX tags like `<Tab />` are replaced by the actual HTML/JSX they return. The JSX tag itself **does not exist** in the browser’s final HTML — only the returned output is rendered.
+
+Let me know if you want a side-by-side diagram!
+
+
 Let me know if you want to see what it would look like on an actual HTML page!
 
 
