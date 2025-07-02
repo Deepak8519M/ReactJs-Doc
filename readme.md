@@ -1,7 +1,3 @@
-# 📘 React Basics – Notes Summary 
-
----
-
 # ⚛️ React - A Complete Overview for Beginners
 
 ---
