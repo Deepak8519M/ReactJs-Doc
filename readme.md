@@ -1,6 +1,4 @@
-# 📘 Web Development Basics – Notes Summary 
-
-This README contains detailed notes and summaries based on commonly asked web development questions, tools, and files. Useful for quick reference or GitHub documentation.
+# 📘 React Basics – Notes Summary 
 
 ---
 
@@ -248,4 +246,4 @@ They will get the **same versions** of packages that you used, because `package-
 
 ---
 
-Let me know if you'd like me to include this in your README or export it!
+
