@@ -364,6 +364,51 @@ Just like using custom HTML elements!
 
 ---
 
-Let me know if you want a diagram of how components fit together in a real project!
+Yes! In React, a **functional component** is just a **JavaScript function** — but with one key difference:
+
+👉 It **returns JSX** — a special syntax that looks like HTML but is actually JavaScript.
+
+---
+
+## 🧠 What Does a React Functional Component Return?
+
+A functional component **returns** the UI (in the form of JSX) that you want to show on the screen.
+
+### 🔹 Example:
+
+```jsx
+function Hello() {
+  return <h1>Hello, world!</h1>;
+}
+```
+
+* `Hello` is a function ✅
+* It returns `<h1>Hello, world!</h1>` — **JSX**, not HTML
+
+---
+
+### 🧬 JSX is Not HTML
+
+* It looks like HTML but it's actually **JavaScript syntax**.
+* Behind the scenes, React converts this JSX into `React.createElement()` calls, which build the **Virtual DOM**.
+
+---
+
+### 🔄 React then:
+
+1. Converts JSX into JavaScript objects (virtual DOM nodes)
+2. Figures out what changed
+3. Updates the real DOM accordingly
+
+---
+
+### ✅ Summary (for your notes):
+
+> A **React functional component** is a JavaScript function that **returns JSX** — a syntax that describes the UI. React uses this to render parts of the screen.
+
+---
+
+Let me know if you want a simple visual of "JSX → Virtual DOM → Real DOM".
+
 
 
