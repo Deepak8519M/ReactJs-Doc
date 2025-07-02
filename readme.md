@@ -1,9 +1,5 @@
 # 📘 React Basics – Notes Summary 
 
-
-
-Of course! Here's the complete **React Overview** directly for you, written in clean and structured format (same as what’s in your document):
-
 ---
 
 # ⚛️ React - A Complete Overview for Beginners
