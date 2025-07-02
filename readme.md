@@ -1,4 +1,4 @@
-# 📘 Web Development Basics – Notes Summary (README.md)
+# 📘 Web Development Basics – Notes Summary 
 
 This README contains detailed notes and summaries based on commonly asked web development questions, tools, and files. Useful for quick reference or GitHub documentation.
 
