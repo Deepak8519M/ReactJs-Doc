@@ -11,7 +11,7 @@ React helps you build fast, interactive user interfaces using small, reusable bu
 
 ---
 
-## 🧩 React vs ReactDOM vs React Native
+## 🧩 `React` vs `ReactDOM` vs `React` Native
 
 | Tool             | Purpose                               | Platform             |
 | ---------------- | ------------------------------------- | -------------------- |
